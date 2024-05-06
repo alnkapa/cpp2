@@ -1,6 +1,8 @@
 #include "my_set.h"
 #include <iostream>
-#include <sstream>
+
+// Только вот одна проблема, хеш не сошелся.
+// глазами проверил все правильно, но хеш не сходиться.
 
 int main() {
   auto sst{read(std::cin)};
