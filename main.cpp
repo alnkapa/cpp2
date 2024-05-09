@@ -29,7 +29,6 @@ int main() {
     if (num.m_num0 == 46 || num.m_num1 == 46 || num.m_num2 == 46 ||
         num.m_num3 == 46) {
       std::cout << num << "\n";
-      ;
     }
   }
   return 0;
