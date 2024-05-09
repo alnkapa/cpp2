@@ -21,7 +21,6 @@ int main() {
   for (auto &num : sst) {
     if (num.m_num0 == 46 && num.m_num1 == 70) {
       std::cout << num << "\n";
-      ;
     }
   }
   // выводим список адресов, любой байт которых равен 46.
